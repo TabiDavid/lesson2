@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (min-width: 37em){
     h1{
 font-size: 2.5rem;
     }
@@ -6,17 +6,20 @@ font-size: 2.5rem;
     h2{
         font-size: 1rem;
     }
-    .img{
+    img{
     
         border-radius: 10px;
-        float: right;
         box-shadow: 1px 1px 1px 1px grey;
     }
 
     header, footer {
         border-radius: 10px;
     }
-    main {
-        grid-template-columns: 1fr;
+    
+        main {
+            grid-template-columns: 1fr 1fr;
+        }
     }
-}
+
+
+
