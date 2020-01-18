@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3{
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Container1{
+    margin: 0 auto;
+    max-width: 700px;
+}
+header, footer{
+    background-color: rgb(197, 66, 143);
+    padding: .75rem;
+    
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+h2{
+    padding-top: 10px;
+    
+
+}
+
+#outputDiv{
+ 
+    font-size: 14px;
+}
