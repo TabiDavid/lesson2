@@ -17,8 +17,7 @@ header, footer{
     background-color: rgb(197, 66, 143);
     padding: .75rem;
     margin: 0 auto;
-    text-align: center;
-   
+    text-align: center;  
 }
 main{
     display: grid;
