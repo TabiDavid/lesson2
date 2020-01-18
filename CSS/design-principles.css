@@ -4,6 +4,7 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
+    line-height: 2em;
 }
 .Container1{
     margin: 0 auto;
@@ -14,9 +15,12 @@ h1, h2, h3{
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin: 2px 2px;
+  
 }
 h2{
-    padding-top: 10px;
+    padding-top: 10px 5px;
+    background-color:#4fbde9;
+
 }
 
 
@@ -32,7 +36,6 @@ header, footer{
 }
 main {
     padding: 5px;
-   
     margin: 0 auto;
     display: grid;
     font-size: 0.8rem;
@@ -42,7 +45,7 @@ main {
 img{
     margin: 5px 5px 5px 5px;
     border-style: solid;
-    width: 275px;
+    width: 90%;
     height: auto;
 }
 p{
@@ -50,4 +53,9 @@ p{
 }
 a {
     margin: 0px 10px;
+}
+section{
+        margin: 1px;
+        background-color: #bfe8f8;
+        text-align: center;
 }
